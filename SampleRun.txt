@@ -1,0 +1,70 @@
+Sample run:
+Enter in the expression in infix notation:
+(9*8)-(7+5)
+Enter in maximum tree height:
+3
+Enter in growth strategy:
+grow
+depth:0
+Take a char from the following:
+-
+*
++
+chosen char:*
+depth:1
+Take a char from the following:
+9
+8
+7
+5
+-
+*
++
+chosen char:8
+depth:2
+Take a char from the following:
+9
+8
+7
+5
+chosen char:9
+depth:2
+Take a char from the following:
+9
+8
+7
+5
+chosen char:8
+depth:1
+Take a char from the following:
+9
+8
+7
+5
+-
+*
++
+chosen char:-
+depth:2
+Take a char from the following:
+9
+8
+7
+5
+chosen char:8
+depth:2
+Take a char from the following:
+9
+8
+7
+5
+chosen char:8
+Using the grow method:
+depth:0 * 
+depth:1 8 
+depth:2 9 
+depth:2 8 
+depth:1 - 
+depth:2 8 
+depth:2 8 
+BUILD SUCCESSFUL (total time: 24 seconds)
